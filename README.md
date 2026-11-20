@@ -1,10 +1,11 @@
-****Data Warehouse and Analytics Project
+Data Warehouse and Analytics Project
 
 The materials of the data warehouse project: the source files, every script from the videos, and the docs.
 ⭐ If this project helps you, star the repository so other learners can find it too.
 You take raw files from two systems, a CRM and an ERP, and build one data warehouse in SQL Server. At the end, the data is clean and ready for analysis.
 
 sql-data-warehouse-project/
+
 ├── 00_setup/               the setup guide, and the one-click Docker start for Mac
 ├── 01_datasets/            the six source files the project loads
 │   ├── source_crm/         three files from the CRM system
