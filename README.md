@@ -1,4 +1,4 @@
-### Data Warehouse and Analytics Project
+Data Warehouse and Analytics Project
 
 The materials of the data warehouse project: the source files, every script from the videos, and the docs.
 ⭐ If this project helps you, star the repository so other learners can find it too.
