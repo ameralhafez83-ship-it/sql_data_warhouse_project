@@ -1,7 +1,9 @@
+****
 Data Warehouse and Analytics Project
 
 The materials of the data warehouse project: the source files, every script from the videos, and the docs.
-⭐ If this project helps you, star the repository so other learners can find it too.
+
+If this project helps you, star the repository so other learners can find it too.
 You take raw files from two systems, a CRM and an ERP, and build one data warehouse in SQL Server. At the end, the data is clean and ready for analysis.
 
 sql-data-warehouse-project/
@@ -21,21 +23,21 @@ sql-data-warehouse-project/
 
 The project reads the six files from `C:\sql\dwh_project\01_datasets\`. Put the folder there, or change the six paths in `03_scripts/bronze/proc_load_bronze.sql`.
 
-🏗️ Data Architecture
+Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 ![Data Architecture](02_docs/data_architecture.png)
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 ---
-📖 Project Overview
+Project Overview
 In this project, you:
 Design the architecture: a modern data warehouse with three layers, bronze, silver and gold.
 Build the ETL pipelines: load the source files and move the data through the layers.
 Model the data: facts and dimensions, ready for reports.
 Analyze it: answer business questions with SQL.
 ---
-🛠️ Important Links & Tools
+Important Links & Tools
 SQL Server and SSMS: the setup guide in `00_setup` has the links and every step.
 Git: a GitHub account, to save and share your project.
 draw.io: to draw the architecture and the data model.
@@ -43,7 +45,7 @@ Notion template: the project plan, ready to copy.
 Notion project steps: every phase and task of the project.
 
 
-🚀 Project Requirements
+Project Requirements
 Building the Data Warehouse (Data Engineering)
 Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -63,7 +65,7 @@ Sales Trends
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 For more details, refer to 02_docs/requirements.md.
 ---
-🏆 Share your build
+Share your build
 Finished the project? Add this badge to the top of your own README, so others can find the original project too.
 
 Then show your build to the others in Discussions, Show and tell.
